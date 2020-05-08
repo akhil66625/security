@@ -1,0 +1,25 @@
+ <div class="body">
+ <div class="imgcontainer">
+  <img src="https://img.icons8.com/ios-filled/50/000000/user.png" class="avatar">
+  </div>
+
+  <div class="container">
+    <label ><b>Username</b></label>
+    <input [(ngModel)]='username' type="text" placeholder="Enter Username"  required>
+
+    <label ><b>Password</b></label>
+    <input [(ngModel)]='password' type="password" placeholder="Enter Password" required>
+
+    <button type="submit" (click)="signup()" >Sign Up</button>
+    <label>
+      <input type="checkbox" checked="checked" > Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</div>
+
+
+     
